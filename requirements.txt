@@ -3,6 +3,5 @@ Pymoe
 youtube_dl
 pip
 discord
-random
 datetime
 json
