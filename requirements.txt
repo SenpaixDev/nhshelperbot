@@ -3,7 +3,7 @@ Pymoe
 youtube_dl
 pip
 discord
-discord.ext import commands
+discord.ext commands
 discord.ext.commands import Bot
 random
 datetime
