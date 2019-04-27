@@ -147,7 +147,7 @@ async def warnings(ctx,user:discord.User):
     await bot.say(f"{user.name} has never been reported")  
 
 
-bot.run("NTcxNzM3MjI1MzIzMzQ3OTY4.XMSGhQ.Tj4Rnw10LjZP0OpFj6DLx1bqt4A")
+bot.run(os.getenv('BOT_TOKEN'))
 
 
 
