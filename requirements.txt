@@ -1,7 +1,1 @@
-asyncio
-Pymoe
-youtube_dl
-pip
-discord
-datetime
 discord.py
