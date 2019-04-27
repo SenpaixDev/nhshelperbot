@@ -2,9 +2,8 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
-import random
-import datetime
-import json
+import time
+import os
 
 bot = commands.Bot(command_prefix='/')
 
@@ -149,7 +148,7 @@ async def warnings(ctx,user:discord.User):
      
 
 
-bot.run(str(os.environ.get('BOT_TOKEN')))
+bot.run(os.getenv('BOT_TOKEN'))
 
 
 
