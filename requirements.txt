@@ -4,3 +4,4 @@ youtube_dl
 pip
 discord
 datetime
+git+https://github.com/Rapptz/discord.py
