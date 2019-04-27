@@ -1,7 +1,5 @@
 discord
-discord.ext import commands
-discord.ext.commands import Bot
 asyncio
-random
-datetime
-json
+Pymoe
+youtube_dl
+pip
