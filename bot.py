@@ -5,8 +5,6 @@ import asyncio
 import random
 import datetime
 import json
-import requests
-import os
 
 bot = commands.Bot(command_prefix='/')
 
@@ -151,7 +149,7 @@ async def warnings(ctx,user:discord.User):
      
 
 
-
-
 bot.run(str(os.environ.get('BOT_TOKEN')))
+
+
 
