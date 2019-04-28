@@ -9,7 +9,7 @@ async def on_ready():
     print ("NHS Helper Bot is online")
     await bot.change_presence(game=discord.Game(name='Do "/cmds" to get started!'))
 
-@bot.command()
+@bot.command(pass_context = True)
 async def cmds(ctx):
     emb_name = discord.Embed(title="Moderation Commands.", description="***/kick [user]*** | Kicks the specified user!\n***/ban [user]*** | Bans the specified user!\n***/clear [amount]*** | Clears the requested amount of messages!\n***/mute [user]*** | Mutes the specified user!\n***/unmute [user]*** | Unmutes the specified user!\n***/warn [user] [reason]*** | Warns the specified user!\n***/warnings [user]*** | Checks the users warnings.\n***/rank [user] [rank]*** | Gives the user a rank.", color=discord.Color.green())
     await bot.send_message(ctx.message.channel, embed=emb_name)
